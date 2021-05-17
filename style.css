@@ -1,0 +1,42 @@
+body{
+	background-color: goldenrod;
+	font-size: 70px;
+	font-style: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	height: 100%;
+  	min-height: 100%;
+}
+
+.container{
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	
+
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.buttons button{
+	background-color: transparent;
+	height: 70px;
+	width: 70px;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 20px;
+
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
